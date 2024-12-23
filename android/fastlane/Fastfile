@@ -1,0 +1,23 @@
+
+default_platform(:android)
+
+platform :android do
+  
+  desc "Lane for test fastlane for first time"
+  lane :firebase_distrebution_newaapp do
+    sh"flutter clean"
+    sh"flutter build apk"
+  
+    firebase_app_distribution(
+      app: "1:1095272005243:android:4e1096f231e27e406aecde",
+      firebase_cli_token:"",
+      android_artifact_type:"APK",
+      android_artifact_path:"../build/app/outputs/flutter-apk/app-release.apk",
+      testers: "wroodmahmood783@gmail.com",
+      release_notes:"V2 Updated \n add internet permision & add refresh indicator ",
+      upload_timeout:1000
+
+    )
+
+  end
+end

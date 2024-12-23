@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1095272005243",
+    "project_id": "news-app-2021a",
+    "storage_bucket": "news-app-2021a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1095272005243:android:4e1096f231e27e406aecde",
+        "android_client_info": {
+          "package_name": "com.wroudapps.newsapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBij5mz8U2DvqPWlSut75slgIaCDIftpwY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
